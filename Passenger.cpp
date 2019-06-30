@@ -12,7 +12,6 @@ namespace AirlineReservation {
 	void Passenger::setPassengerNum(int passengerNum) {
 		mPassengerNum = passengerNum;
 	}
-
 	int Passenger::getPassengerNum() const {
 		return mPassengerNum;
 	}
@@ -21,7 +20,6 @@ namespace AirlineReservation {
 	void Passenger::setFirstName(const std::string& firstName) {
 		mFirstName = firstName;
 	}
-
 	const std::string& Passenger::getFirstName() const {
 		return mFirstName;
 	}
@@ -30,7 +28,6 @@ namespace AirlineReservation {
 	void Passenger::setLastName(const std::string& lastName) {
 		mLastName = lastName;
 	}
-
 	const std::string& Passenger::getLastName() const {
 		return mLastName;
 	}
@@ -39,7 +36,6 @@ namespace AirlineReservation {
 	void Passenger::setPeopleInGroup(const std::string& peopleInGroup) {
 		mPeopleInGroup = peopleInGroup;
 	}
-
 	const std::string& Passenger::getPeopleInGroup() const {
 		return mPeopleInGroup;
 	}
@@ -48,7 +44,6 @@ namespace AirlineReservation {
 	void Passenger::setPassportCountry(const std::string& passportCountry) {
 		mPassportCountry = passportCountry;
 	}
-
 	const std::string& Passenger::getPassportCountry() const {
 		return mPassportCountry;
 	}

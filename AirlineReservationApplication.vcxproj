@@ -153,11 +153,17 @@
   <ItemGroup>
     <ClCompile Include="AirlineReservationApplication.cpp" />
     <ClCompile Include="Database.cpp" />
+    <ClCompile Include="FlightDetails.cpp" />
+    <ClCompile Include="FlightSchedule.cpp" />
     <ClCompile Include="Passenger.cpp" />
+    <ClCompile Include="TicketInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Database.h" />
+    <ClInclude Include="FlightDetails.h" />
+    <ClInclude Include="FlightSchedule.h" />
     <ClInclude Include="Passenger.h" />
+    <ClInclude Include="TicketInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
