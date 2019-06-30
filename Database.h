@@ -6,7 +6,6 @@
 #include <iostream>
 #include <vector>
 
-
 namespace AirlineReservation {
 
 	const int kFirstPassengerNum = 1;
@@ -24,9 +23,6 @@ namespace AirlineReservation {
 
 		//Ticket info database
 		TicketInfo& addTicketInfo(const std::string& cost, const std::string& purchaseDate, const std::string& confirmationNum);
-
-		//find person by this info
-		//Passenger& getPassenger(const std::string& firstName, const std::string& lastName, const std::string& peopleInGroup, const std::string& passportCountry);
 
 		void displayAllPassengers() const;
 		void displayAllFlightSchedules() const;
